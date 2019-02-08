@@ -9,7 +9,8 @@ var pSecond=0;   /*total p elements in div2*/
 function allP()
 {
 
-    $('p').addClass('green3');   /*gives all p elements the green border*/
+    $('p').css('border',"3px solid green");
+    /*$('p').addClass('green3');*/   /*gives all p elements the green border*/
     $('p').each(function(index)  /*.each to iterate all of the p; this is an array*/
     {
 
@@ -22,7 +23,8 @@ function allP()
 
 function firstP()
 {
-    $('div:first p').addClass('red3');  /*borders for first div p elements*/
+   /* $('div:first p').addClass('red3'); */ /*borders for first div p elements*/
+    $('div:first p').css('border', '3px solid red')
     $('div:first p').each(function(index)
     {
 
@@ -34,7 +36,8 @@ function firstP()
 
 function secondP()
 {
-    $('div:last p').addClass('blue3');   /*borders for second div p elements*/
+   /* $('div:last p').addClass('blue3'); */  /*borders for second div p elements*/
+    $('div:last p').css('border','3px solid blue')
     $('div:last p').each(function(index)
     {
 
