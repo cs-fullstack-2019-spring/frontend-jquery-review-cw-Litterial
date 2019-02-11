@@ -1,3 +1,7 @@
+### POINTS: 1.5
+### KEY: One issue with CW 1 where you selector selected all of the <p>s in both DIVs and not just the first DIV. 
+### This would have worked $("div:first>p"), but nice job overall!
+
 # Review: JavaScript/jQuery
 
 ### Exercise 1: Selectors

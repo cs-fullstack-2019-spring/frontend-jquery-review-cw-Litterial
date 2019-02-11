@@ -23,6 +23,9 @@ function allP()
 
 function firstP()
 {
+    // KEY: Since 2nd DIV nested in 1st DIV, the selector below will cascade and select all 5, not just 3. 
+    // Something like this would work: $("div:first>p") 
+
    /* $('div:first p').addClass('red3'); */ /*borders for first div p elements*/
     $('div:first p').css('border', '3px solid red')
     $('div:first p').each(function(index)
